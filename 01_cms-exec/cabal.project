@@ -1,0 +1,10 @@
+packages:
+  ./
+  ../11_cms-ui-request
+  ../12_cms-ui-response
+  ../21_cms-infra
+  ../31_cms-app
+  ../41_cms-domain-service
+  ../51_cms-domain-model
+ 
+

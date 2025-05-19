@@ -1,0 +1,3 @@
+logDir : "/work/haskell/jurnal-mcp-server/01_cms-exec/logs"
+logLevel : "Debug"
+scriptsDir : "/work/haskell/jurnal-mcp-server/01_cms-exec/scripts"

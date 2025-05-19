@@ -1,0 +1,50 @@
+[
+  {
+    "name": "hostname",
+    "description": "return server hostname.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "args": {
+          "type": "string",
+          "description": "-a default empty."
+        }
+      },
+      "required": [
+        "args"
+      ]
+    }
+  },
+ {
+    "name": "ls",
+    "description": "Return the list of files in the folder specified by the argument.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "args": {
+          "type": "string",
+          "description": "Specify the path to the folder to be referenced."
+        }
+      },
+      "required": [
+        "args"
+      ]
+    }
+  },
+  {
+    "name": "df",
+    "description": "list volumes.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "args": {
+          "type": "string",
+          "description": "-k default empty."
+        }
+      },
+      "required": [
+        "args"
+      ]
+    }
+  }
+]
